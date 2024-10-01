@@ -1,0 +1,224 @@
+.footer-container {
+    align-self: center;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0 !important;
+    padding: 30px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer-container {
+        padding: 15px 0;
+    }
+}
+
+.footer-container .content {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.footer-container .content .links {
+    border-bottom: 1px solid #272727;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container .content .links {
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer-container .content .links {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container .content .links .list {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.footer-container .content .information {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container .content .information {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container .content .information .bottom-info {
+        display: none;
+    }
+}
+
+.footer-container .content .links .medias {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-container .content .links .medias .apps {
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer-container .content .links .medias .icons {
+    display: flex;
+    justify-content: flex-end;
+    margin: -7px;
+}
+
+.footer-container .content .links .medias .apps a:first-of-type {
+    margin-right: 15px;
+}
+
+.footer-container .content .links .medias .apps a img {
+    border: 1px solid hsla(0, 0%, 100%, .2);
+    border-radius: 7px;
+    height: 56px;
+    padding: 13px 21px;
+    width: 143px;
+}
+
+.footer-container .content .links .medias .icons a {
+    flex-shrink: 0;
+    margin: 7px;
+    padding: 15px;
+    transition: .1s;
+}
+
+.footer-container .content .links .list li {
+    align-items: center;
+    display: flex;
+}
+
+.footer-container .content .information .geo-selected .icon-xs {
+    margin-right: 10px;
+}
+
+.footer-container .content .information .geo-selected .country, .footer-container .content .information .geo-selected .localisation {
+    border-right: 1px solid #3d3d3d;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container .content .links .medias {
+        align-items: center;
+		margin-top: 30px;
+		margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container .content .information .geo-selected .icon-xs {
+        flex: 0 0 15px;
+        height: 15px;
+        width: 15px;
+    }
+}
+
+.footer-container .content .links .list li a {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container .content .links .medias .icons a {
+        padding: 5px;
+    }
+
+	.footer-container .content .links .list li {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 500px) {
+    .footer-container .content .links .medias .icons a .icon-s {
+        transform: scale(.7);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container .content .links .list li a {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer-container .content .links .medias .apps {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer-container .content .links .medias .apps a img {
+        border-radius: 5px;
+        height: 45px;
+        padding: 10px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container .content .information .bottom-info {
+        display: none;
+    }
+}
+
+.footer-container .content .information .geo-selected {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container .content .information .geo-selected .icon-xs {
+        flex: 0 0 15px;
+        height: 15px;
+        width: 15px;
+    }
+}
+
+.icon-location {
+    mask-image: url(/assets/img/icon-location.svg);
+    -webkit-mask-image: url(/assets/img/icon-location.svg);
+}
+
+.icon-language {
+    mask-image: url(/assets/img/icon-language.svg);
+    -webkit-mask-image: url(/assets/img/icon-language.svg);
+}
+
+.icon-currencies {
+    mask-image: url(/assets/img/icon-currencies.svg);
+    -webkit-mask-image: url(/assets/img/icon-currencies.svg);
+}

@@ -1,0 +1,112 @@
+.socials-youtube {
+    background-color: rgba(226, 43, 38, .2);
+}
+
+.socials-discord {
+    background-color: rgba(88, 101, 242, .2);
+}
+
+.socials-xcom {
+    background-color: rgba(29, 155, 240, .2);
+}
+
+.socials-instagram {
+    background-color: hsla(16, 35%, 60%, .2);
+}
+
+.socials-facebook {
+    background-color: rgba(24, 119, 242, .2);
+}
+
+.socials-twitch {
+    background-color: rgba(152, 97, 255, .2);
+}
+
+.socials-extension {
+    background-color: rgba(255, 84, 0, .2);
+}
+
+.socials-youtube .icon-youtube {
+    background-color: #e22b26;
+}
+
+.socials-discord .icon-discord {
+    background-color: #5865f2;
+}
+
+.socials-xcom .icon-xcom {
+    background-color: #1d9bf0;
+}
+
+.socials-instagram .icon-instagram {
+    background-color: #bd8a77;
+}
+
+.socials-facebook .icon-facebook {
+    background-color: #1877f2;
+}
+
+.socials-twitch .icon-twitch {
+    background-color: #9861ff;
+}
+
+.socials-extension .icon-extension {
+    background-color: #ff5400;
+}
+
+.icon-facebook {
+    mask-image: url(/assets/img/icon-fb.svg);
+    -webkit-mask-image: url(/assets/img/icon-fb.svg);
+}
+
+.icon-discord {
+    mask-image: url(/assets/img/icon-dcr.svg);
+    -webkit-mask-image: url(/assets/img/icon-dcr.svg);
+}
+
+.icon-xcom {
+    mask-image: url(/assets/img/icon-xcom.svg);
+    -webkit-mask-image: url(/assets/img/icon-xcom.svg);
+    transform: scale(.9);
+}
+
+.icon-instagram {
+    mask-image: url(/assets/img/icon-igr.svg);
+    -webkit-mask-image: url(/assets/img/icon-igr.svg);
+}
+
+.icon-twitch {
+    mask-image: url(/assets/img/icon-tch.svg);
+    -webkit-mask-image: url(/assets/img/icon-tch.svg);
+}
+
+.icon-youtube {
+    mask-image: url(/assets/img/icon-yt.svg);
+    -webkit-mask-image: url(/assets/img/icon-yt.svg);
+}
+
+.icon-extension {
+    mask-image: url(/assets/img/icon-extension.svg);
+    -webkit-mask-image: url(/assets/img/icon-extension.svg);
+}
+
+.icon-instagram, .icon-twitter, .icon-twitch, .icon-youtube, .icon-facebook, .icon-rss, .icon-xcom, .icon-discord, .icon-xbox-one, .icon-xbox-series, .icon-xbox-series-x-s, .icon-earth, .icon-extension, .icon-information, .icon-language, .icon-close, .icon-currencies, .icon-location {
+    background-color: #fff;
+    mask-position: center;
+    -webkit-mask-position: center;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+}
+
+.socials-copy, .socials-discord, .socials-extension, .socials-facebook, .socials-instagram, .socials-rss, .socials-twitch, .socials-twitter, .socials-whatsapp, .socials-xcom, .socials-youtube {
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.icon-s {
+    flex: 0 0 25px;
+    height: 25px;
+    width: 25px;
+}
